@@ -1,3 +1,10 @@
+*{
+  padding: 0;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: 'Courier New', Courier, monospace;
 }
@@ -5,11 +12,36 @@ body {
 img {
   width: 100px;
   height: 100px;
+  margin: 12px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  padding: 12px;
+}
+
+.plants {
+  margin: 30px 120px;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 60px;
+}
+
+.barberry,
+.chili,
+.pepper,
+.saffron {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 150px;
+  max-width: 200px;
+}
+
+.text {
+  text-align: center;
 }
 
 /* do not edit this footer */
